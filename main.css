@@ -12,7 +12,7 @@ h1 {
     font-family: 'Trispace', sans-serif;
 }
 
-h1:hover a{
+h1 a:hover{
     opacity: 0.5;
     color: red;
     transition: opacity 0.5s ease-out;
@@ -33,7 +33,7 @@ nav ul li {
     opacity: 1;
 }
 
-nav > ul > li:hover a {
+nav > ul > li a:hover {
     opacity: 0.5;
     color: red;
     transition: opacity 0.5s ease-out;
