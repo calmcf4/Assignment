@@ -1,0 +1,14 @@
+index.html		(Built 04/11/2020-05/11/2020)
+
+
+started with a wireframe, planned html I would use, elements etc
+
+wrote html code
+
+styled with css, had initial trouble getting the video to autoplay, found it had to be muted first
+used googling to find how to set the video as a background
+had initial problem getting the red fade effect on links to only show on the text, had to move the
+hover effect from the li element to the a element
+
+initially I only had 4 menu items, I decided to add the about me section to have a section I could go more
+in detail about myself and my interests, while also making the nav menu look less empty.
