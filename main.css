@@ -57,24 +57,35 @@ a {
     width: 100vw;
 }
 
-h2 {
+.typewriter {
+    font-family: 'Trispace', monospace;
+    font-weight: lighter;
     position: fixed;
     bottom: 0;
-    width: 20%;
-    height: 50vh;
+    height: 60vh;
     color: white;
-    font-family: 'Trispace';
-    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+
+h2 {
+    width: 19.5vw;
+    border-right: 3px solid;
+    animation: blink 1s step-end infinite;
+}
+
+
+@keyframes blink {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: white;
+    }
 }
 
 p {
-    position: fixed;
-    bottom: 0;
-    width: 45%;
-    height: 40vh;
-    color: white;
-    font-family: 'Trispace';
-    font-weight: lighter;
+    width: 50%;
 }
 
 footer {
@@ -90,6 +101,6 @@ footer {
     position: fixed;
     bottom: 0;
     width: 15%;
-    height: 30vh;
+    height: 40vh;
     color: white;
 }
