@@ -4,12 +4,14 @@
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    filter: blur(4px);
 }
 
 h1 {
     grid-area: h1;
     color: white;
     font-family: 'Trispace', sans-serif;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
 h1 a:hover{
@@ -20,6 +22,7 @@ h1 a:hover{
 
 nav {
     grid-area: nav;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
 nav ul {
@@ -115,5 +118,94 @@ main ul li {
     color: white;
     font-family: 'Trispace', sans-serif;
     display: block;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+div section {
+    color: white;
+    font-family: 'Trispace', sans-serif;
+    transform: translate(-100%, 0);
+    transition: transform 0.25s ease-in;
+    left: -100;
+    opacity: 0;
+
+}
+
+
+
+.CSY1014info:target{
+    display: block;
+    background:#000033;
+    bottom: 0;
+    height: 100vh;
+    width: 20%;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    transform: translateX(0);
+    opacity: 1;
+} 
+
+.CSY1017info:target {
+    display: block;
+    background:#000033;
+    bottom: 0;
+    height: 100vh;
+    width: 20%;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.CSY1018info:target {
+    display: block;
+    background:#000033;
+    bottom: 0;
+    height: 100vh;
+    width: 20%;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.CSY1019info:target {
+    display: block;
+    background:#000033;
+    bottom: 0;
+    height: 100vh;
+    width: 20%;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+.CSY1020info:target {
+    display: block;
+    background:#000033;
+    bottom: 0;
+    height: 100vh;
+    width: 20%;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.CSY1026info:target {
+    display: block;
+    background:#000033;
+    bottom: 0;
+    height: 100vh;
+    width: 20%;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+div > section > a {
+    color: red;
+}
+
+div > section > a:hover {
+    opacity: 0.5;
+    color: white;
+    transition: opacity 0.5s ease-out;
 }

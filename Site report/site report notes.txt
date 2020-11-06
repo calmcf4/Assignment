@@ -15,3 +15,9 @@ in detail about myself and my interests, while also making the nav menu look les
 
 to add the  typewriter effect I used code from this link and edited a little to fit my page:
 https://usefulangle.com/post/85/css-typewriter-animation
+
+
+portfolio.html			(Built 05/11/2020 - 06/11/2020)
+
+used https://stackoverflow.com/questions/2570972/css-font-border to find the code for the shadow effect on
+module names
