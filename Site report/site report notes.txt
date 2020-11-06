@@ -12,3 +12,6 @@ hover effect from the li element to the a element
 
 initially I only had 4 menu items, I decided to add the about me section to have a section I could go more
 in detail about myself and my interests, while also making the nav menu look less empty.
+
+to add the  typewriter effect I used code from this link and edited a little to fit my page:
+https://usefulangle.com/post/85/css-typewriter-animation

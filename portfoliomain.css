@@ -1,0 +1,119 @@
+.video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+h1 {
+    grid-area: h1;
+    color: white;
+    font-family: 'Trispace', sans-serif;
+}
+
+h1 a:hover{
+    opacity: 0.5;
+    color: red;
+    transition: opacity 0.5s ease-out;
+}
+
+nav {
+    grid-area: nav;
+}
+
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+}
+
+nav ul li {
+    opacity: 1;
+}
+
+nav > ul > li a:hover {
+    opacity: 0.5;
+    color: red;
+    transition: opacity 0.5s ease-out;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Trispace', sans-serif;
+}
+
+.topbar {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: auto;
+    grid-template-areas: "h1 nav";
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-family: 'Trispace';
+    font-weight: lighter;
+}
+
+
+.CSY1014 {
+    grid-area: CSY1014;
+    padding: 10px;
+}
+
+.CSY1017 {
+    grid-area: CSY1017;
+    padding: 10px;
+}
+
+.CSY1018 {
+    grid-area: CSY1018;
+    padding: 10px;
+}
+
+.CSY1019 {
+    grid-area: CSY1019;
+    padding: 10px;
+}
+
+.CSY1020 {
+    grid-area: CSY1020;
+    padding: 10px;
+}
+
+.CSY1026 {
+    grid-area: CSY1026;
+    padding: 10px;
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: auto;
+    grid-template-areas: "CSY1014 CSY1017 CSY1018"
+                         "CSY1019 CSY1020 CSY1026";
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+main ul li {
+    list-style-type: none;
+    color: white;
+    font-family: 'Trispace', sans-serif;
+    display: block;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
