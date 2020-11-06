@@ -21,3 +21,6 @@ portfolio.html			(Built 05/11/2020 - 06/11/2020)
 
 used https://stackoverflow.com/questions/2570972/css-font-border to find the code for the shadow effect on
 module names
+
+initially I had issues with all the module information showing on the page when it loaded, as well as
+when I closed the tab it was in, using opacity fixed this.

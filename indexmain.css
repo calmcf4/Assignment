@@ -11,6 +11,7 @@ h1 {
     grid-area: h1;
     color: white;
     font-family: 'Trispace', sans-serif;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
 h1 a:hover{
@@ -28,6 +29,7 @@ nav ul {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     text-align: center;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
 nav ul li {
@@ -66,6 +68,7 @@ a {
     height: 60vh;
     color: white;
     letter-spacing: 2px;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
 
@@ -73,6 +76,8 @@ h2 {
     width: 20vw;
     border-right: 3px solid;
     animation: blink 1s step-end infinite;
+    animation: typing 5s steps(30, end), blink .75s step-end infinite;
+
 }
 
 
@@ -84,6 +89,7 @@ h2 {
         border-color: white;
     }
 }
+
 
 p {
     width: 50%;
