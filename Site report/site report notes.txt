@@ -24,3 +24,11 @@ module names
 
 initially I had issues with all the module information showing on the page when it loaded, as well as
 when I closed the tab it was in, using opacity fixed this.
+
+
+
+Contact.html			(Built 06/11/2020-08/11/2020)
+
+used https://athemes.com/wp-content/uploads/deep-cv-wordpress-theme.jpg for inspriation
+
+icons from https://www.iconsdb.com/
