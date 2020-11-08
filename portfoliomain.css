@@ -16,8 +16,7 @@ h1 {
 
 h1 a:hover{
     opacity: 0.5;
-    color: red;
-    transition: opacity 0.25s ease-out;
+    color: red;    transition: opacity 0.5s ease-out;
 }
 
 nav {
@@ -39,7 +38,7 @@ nav ul li {
 nav > ul > li a:hover {
     opacity: 0.5;
     color: red;
-    transition: opacity 0.25s ease-out;
+    transition: opacity 0.5s ease-out;
 }
 
 
@@ -135,10 +134,10 @@ div section {
 
 .CSY1014info:target{
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background:#000033;
     bottom: 0;
     height: 100vh;
-    width: 100%;
+    width: 20%;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     transform: translateX(0);
     opacity: 1;
@@ -148,10 +147,10 @@ div section {
 
 .CSY1017info:target {
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background:#000033;
     bottom: 0;
     height: 100vh;
-    width: 100%;
+    width: 20%;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     transform: translateX(0);
     opacity: 1;
@@ -159,10 +158,10 @@ div section {
 
 .CSY1018info:target {
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background:#000033;
     bottom: 0;
     height: 100vh;
-    width: 100%;
+    width: 20%;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     transform: translateX(0);
     opacity: 1;
@@ -170,10 +169,10 @@ div section {
 
 .CSY1019info:target {
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background:#000033;
     bottom: 0;
     height: 100vh;
-    width: 100%;
+    width: 20%;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     transform: translateX(0);
     opacity: 1;
@@ -182,10 +181,10 @@ div section {
 
 .CSY1020info:target {
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background:#000033;
     bottom: 0;
     height: 100vh;
-    width: 100%;
+    width: 20%;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     transform: translateX(0);
     opacity: 1;
@@ -193,10 +192,10 @@ div section {
 
 .CSY1026info:target {
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background:#000033;
     bottom: 0;
     height: 100vh;
-    width: 100%;
+    width: 20%;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     transform: translateX(0);
     opacity: 1;
@@ -209,5 +208,5 @@ div > section > a {
 div > section > a:hover {
     opacity: 0.5;
     color: white;
-    transition: opacity 0.25s ease-out;
+    transition: opacity 0.5s ease-out;
 }
