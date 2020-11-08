@@ -17,7 +17,7 @@ h1 {
 h1 a:hover{
     opacity: 0.5;
     color: red;
-    transition: opacity 0.5s ease-out;
+    transition: opacity 0.25s ease-out;
 }
 
 nav {
@@ -39,7 +39,7 @@ nav ul li {
 nav > ul > li a:hover {
     opacity: 0.5;
     color: red;
-    transition: opacity 0.5s ease-out;
+    transition: opacity 0.25s ease-out;
 }
 
 
