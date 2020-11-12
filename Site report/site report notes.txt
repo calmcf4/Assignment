@@ -35,3 +35,7 @@ Contact.html			(Built 06/11/2020-08/11/2020)
 used https://athemes.com/wp-content/uploads/deep-cv-wordpress-theme.jpg for inspriation
 
 icons from https://www.iconsdb.com/
+
+
+mobile styling			(Built 12/11/2020-12/11/2020)
+Button view my work would not fit in grid. had to move it 
