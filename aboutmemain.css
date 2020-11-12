@@ -42,7 +42,13 @@ nav > ul > li a:hover {
     transition: opacity 0.25s ease-out;
 }
 
+.contact > ul {
+    list-style-type: none;
+}
 
+.contact > ul > li {
+    margin: 0.5em;
+}
 
 a {
     color:  white;
@@ -71,81 +77,46 @@ main {
     
 }
 
-.image img {
-    position: relative;
-    display: block;
-    grid-area: image;
-    width: 75vh;
-    height: auto;
-    max-width: 100%;
+.info1 {
+    grid-area: info;
 }
 
-.name {
-    grid-area: name;
-    padding: 3vh;
+
+.info1 ul li {
+    margin: 0.5em;
 }
 
-.phone {
-    grid-area: phone;
-    padding: 3vh;
+.contact {
+    grid-area: contact;
 }
 
-.email {
-    grid-area: email;
-    padding: 3vh;
+
+.skills {
+    grid-area: skills;
 }
 
-.address {
-    grid-area: address;
-    padding: 3vh;
+
+.skills ul li {
+    margin: 0.5em;
 }
 
-.dob {
-    grid-area: dob;
-    padding: 3vh;
+.education {
+    grid-area: education;
 }
-
 
 .details {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 75% 25%;
     grid-template-rows: auto;
-    grid-template-areas: "image name"
-                         "image phone"
-                         "image email"
-                         "image address"
-                         "image dob";
+    grid-template-areas: "info contact"
+                         "info skills"
+                         "info education"
 }
 
 main div {
     color: white;
     font-family: 'Trispace', sans-serif;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
-}
-
-.calender {
-    padding: 1px;
-}
-
-.home {
-    padding: 1px;
-}
-
-.mail {
-    padding: 5px;
-}
-
-.phoneicon {
-    padding: 1px;
-}
-
-div section a {
-    margin: 2em;
-}
-
-div section a:hover {
-    opacity: 0.75;
-    transition: opacity 0.25s ease-out;
 }
 
 footer {
