@@ -5,13 +5,15 @@
     min-width: 100%;
     min-height: 100%;
     filter: blur(4px);
+    z-index: -4;
 }
 
 img {
     border-radius: 8px;
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 100%;
+    max-height: 100%;
 }
+
 h1 {
     grid-area: h1;
     color: white;
@@ -59,50 +61,50 @@ a {
     grid-template-columns: 10% 90%;
     grid-template-rows: auto;
     grid-template-areas: "h1 nav";
-    position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
+    z-index: -3;
 }
 
 
 footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
     color: white;
     font-family: 'Trispace';
     font-weight: lighter;
+    z-index: -2;
 }
 
 
 .CSY1014 {
     grid-area: CSY1014;
-    padding: 5px;
 }
 
 .CSY1017 {
     grid-area: CSY1017;
-    padding: 5px;
+
+
 }
 
 .CSY1018 {
     grid-area: CSY1018;
-    padding: 5px;
+
 }
 
 .CSY1019 {
     grid-area: CSY1019;
-    padding: 5px;
+
 }
 
 .CSY1020 {
     grid-area: CSY1020;
-    padding: 5px;
+
 }
 
 .CSY1026 {
     grid-area: CSY1026;
-    padding: 5px;
+
 }
 
 main ul {
@@ -111,9 +113,10 @@ main ul {
     grid-template-rows: auto;
     grid-template-areas: "CSY1014 CSY1017 CSY1018"
                          "CSY1019 CSY1020 CSY1026";
-    position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 98%;
+    height: 98%;
+    z-index: -1;
 
 }
 
@@ -126,11 +129,16 @@ main ul li {
 }
 
 div section {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0%;
+    width: 100%;
+    height: 100%;
     color: white;
     font-family: 'Trispace', sans-serif;
     transform: translate(-100%, 0);
     transition: transform 0.25s ease-in;
-    left: -100;
     opacity: 0;
 
 }
@@ -141,7 +149,7 @@ div section {
     display: block;
     background: rgba(0, 0, 0, 0.5);
     bottom: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     transform: translate(0, 0);
@@ -154,7 +162,7 @@ div section {
     display: block;
     background: rgba(0, 0, 0, 0.5);
     bottom: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     transform: translate(0, 0);
@@ -165,7 +173,7 @@ div section {
     display: block;
     background: rgba(0, 0, 0, 0.5);
     bottom: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     transform: translate(0, 0);
@@ -176,7 +184,7 @@ div section {
     display: block;
     background: rgba(0, 0, 0, 0.5);
     bottom: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     transform: translate(0, 0);
@@ -188,7 +196,7 @@ div section {
     display: block;
     background: rgba(0, 0, 0, 0.5);
     bottom: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     transform: translate(0, 0);
@@ -199,7 +207,7 @@ div section {
     display: block;
     background: rgba(0, 0, 0, 0.5);
     bottom: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     transform: translate(0, 0);
