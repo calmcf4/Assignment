@@ -127,3 +127,11 @@ footer {
     font-family: 'Trispace';
     font-weight: lighter;
 }
+
+.close {
+    display: none;
+}
+
+.navmenu {
+    display: none;
+}

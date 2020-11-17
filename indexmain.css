@@ -124,3 +124,7 @@ footer {
 .button:hover {
     color: red;
 }
+
+.close {
+    display: none;
+}

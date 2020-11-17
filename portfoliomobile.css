@@ -1,3 +1,7 @@
+.navmenu {
+    grid-area: navmenu;
+}
+
 .video {
     position: fixed;
     right: 0;
@@ -9,9 +13,10 @@
 
 img {
     border-radius: 8px;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 75%;
+    max-height: 75%;
 }
+
 h1 {
     grid-area: h1;
     color: white;
@@ -21,23 +26,36 @@ h1 {
 
 h1 a:hover{
     opacity: 0.75;
-    color: red;   transition: opacity 0.25s ease-out;
+    color: red;
+    transition: opacity 0.25s ease-out;
 }
 
 nav {
-    grid-area: nav;
-    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0%;
+    width: 100%;
+    height: 25%;
+    transform: translate(-0%, -100%);
+    transition: transform 0.25s ease-in;
+    background: rgba(0, 0, 0, 1);
+    opacity: 0;
 }
 
-nav ul {
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    text-align: center;
+nav:target {
+    transform: translate(0, 0);
+    opacity: 1;
+    z-index: 6;
 }
+
+
 
 nav ul li {
     opacity: 1;
+    list-style-type: none;
+    margin: 1em;
+    text-align: center;
 }
 
 nav > ul > li a:hover {
@@ -49,21 +67,20 @@ nav > ul > li a:hover {
 
 
 a {
-    color: white;
+    color:  white;
     text-decoration: none;
     font-family: 'Trispace', sans-serif;
 }
 
 .topbar {
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 90% 10%;
     grid-template-rows: auto;
-    grid-template-areas: "h1 nav";
+    grid-template-areas: "h1 navmenu";
     position: fixed;
     top: 0;
     width: 100vw;
 }
-
 
 footer {
     position: fixed;
@@ -107,11 +124,13 @@ footer {
 
 main ul {
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: auto;
-    grid-template-areas: "CSY1014 CSY1017 CSY1018"
-                         "CSY1019 CSY1020 CSY1026";
+    grid-template-areas: "CSY1014 CSY1017"
+                         "CSY1018 CSY1019"
+                         "CSY1020 CSY1026";
     position: fixed;
+    z-index: 5;
     bottom: 0;
     width: 100%;
 
@@ -214,12 +233,4 @@ div > section > a:hover {
     opacity: 0.75;
     color: white;
     transition: opacity 0.25s ease-out;
-}
-
-.close {
-    display: none;
-}
-
-.navmenu {
-    display: none;
 }
