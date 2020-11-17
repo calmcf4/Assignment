@@ -9,6 +9,7 @@
     min-width: 100%;
     min-height: 100%;
     filter: blur(4px);
+    z-index: -5;
 }
 
 img {
@@ -36,11 +37,12 @@ nav {
     top: 0;
     right: 0%;
     width: 100%;
-    height: 40%;
+    height: 100%;
     transform: translate(-0%, -100%);
     transition: transform 0.25s ease-in;
-    background: rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0.75);
     opacity: 0;
+    font-size: xx-large;
 }
 
 nav:target {
@@ -53,8 +55,9 @@ nav:target {
 nav ul li {
     opacity: 1;
     list-style-type: none;
-    margin: 1em;
+    margin: 2.5em;
     text-align: center;
+
 }
 
 nav > ul > li a:hover {
@@ -76,20 +79,20 @@ a {
     grid-template-columns: 90% 10%;
     grid-template-rows: auto;
     grid-template-areas: "h1 navmenu";
-    position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
+    z-index: -4;
 }
 
 .typewriter {
     font-family: 'Trispace', monospace;
     font-weight: lighter;
-    position: fixed;
     bottom: 0;
-    height: 60vh;
     color: white;
     letter-spacing: 2px;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    z-index: -3;
+    margin-top: 15em;
 }
 
 
@@ -119,15 +122,16 @@ p {
 
 footer {
     position: fixed;
+    display: block;
     bottom: 0;
     width: 100%;
     color: white;
     font-family: 'Trispace';
     font-weight: lighter;
+    z-index: -2;
 }
 
 .button {
-    position: fixed;
     bottom: 20;
     width: 25%;
     height: 4vh;
@@ -135,6 +139,7 @@ footer {
     border: 3px solid black;
     text-align: center;
     background-color: rgb(15, 19, 51);
+    z-index: -1;
 
 }
 

@@ -9,8 +9,8 @@
 
 img {
     border-radius: 8px;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 75%;
+    max-height: 75%;
 }
 h1 {
     grid-area: h1;
@@ -77,32 +77,32 @@ footer {
 
 .CSY1014 {
     grid-area: CSY1014;
-    padding: 10px;
+    padding: 5px;
 }
 
 .CSY1017 {
     grid-area: CSY1017;
-    padding: 10px;
+    padding: 5px;
 }
 
 .CSY1018 {
     grid-area: CSY1018;
-    padding: 10px;
+    padding: 5px;
 }
 
 .CSY1019 {
     grid-area: CSY1019;
-    padding: 10px;
+    padding: 5px;
 }
 
 .CSY1020 {
     grid-area: CSY1020;
-    padding: 10px;
+    padding: 5px;
 }
 
 .CSY1026 {
     grid-area: CSY1026;
-    padding: 10px;
+    padding: 5px;
 }
 
 main ul {
