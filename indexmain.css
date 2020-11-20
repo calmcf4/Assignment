@@ -39,6 +39,7 @@ nav ul {
 
 nav ul li {
     opacity: 1;
+    margin-left: 10vw;
 }
 
 nav > ul > li a:hover {

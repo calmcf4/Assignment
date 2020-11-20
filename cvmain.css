@@ -34,6 +34,7 @@ nav ul {
 
 nav ul li {
     opacity: 1;
+    margin-left: 10vw;
 }
 
 nav > ul > li a:hover {
@@ -74,6 +75,16 @@ main {
     background: rgba(0, 0, 0, 0.5);
     bottom: 10vh;
     left: 30vh;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: "info contact"
+                        "info skills"
+                        "info education";
+    font-size: 1.5vh;
+    font-size: 0.75vw;
+    }
+    
     
 }
 
@@ -104,14 +115,6 @@ main {
     grid-area: education;
 }
 
-.details {
-    display: grid;
-    grid-template-columns: 75% 25%;
-    grid-template-rows: auto;
-    grid-template-areas: "info contact"
-                         "info skills"
-                         "info education"
-}
 
 main div {
     color: white;
@@ -135,4 +138,8 @@ footer {
 
 .navmenu {
     display: none;
+}
+
+.info2 {
+    font-size: 2vh;
 }

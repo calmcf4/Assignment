@@ -1,3 +1,7 @@
+.navmenu {
+    grid-area: navmenu;
+}
+
 .video {
     position: fixed;
     right: 0;
@@ -5,7 +9,16 @@
     min-width: 100%;
     min-height: 100%;
     filter: blur(4px);
+    z-index: -4;
 }
+
+
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 
 h1 {
     grid-area: h1;
@@ -21,20 +34,31 @@ h1 a:hover{
 }
 
 nav {
-    grid-area: nav;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-0%, -100%);
+    transition: transform 0.25s ease-in;
+    background: rgba(0, 0, 0, 0.75);
+    opacity: 0;
+    font-size: xx-large;
+    z-index: 2;
 }
 
-nav ul {
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    text-align: center;
-    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+nav:target {
+    transform: translate(0, 0);
+    opacity: 1;
 }
+
 
 nav ul li {
     opacity: 1;
-    margin-left: 10vw;
+    list-style-type: none;
+    margin: 2.5em;
+    text-align: center;
 }
 
 nav > ul > li a:hover {
@@ -52,23 +76,23 @@ a {
 }
 
 .topbar {
-    position: fixed;
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 90% 10%;
     grid-template-rows: auto;
-    grid-template-areas: "h1 nav";  
+    grid-template-areas: "h1 navmenu";  
     top: 0;
-    width: 100vw;
+    width: 100%;
+    z-index: -3;
 }
 
 main {
-    position: fixed;
     display: block;
     height: 77%;
     width: 71.5%;
     background: rgba(0, 0, 0, 0.5);
     bottom: 10vh;
     left: 30vh;
+    z-index: -4;
     
 }
 
@@ -79,6 +103,7 @@ main {
     width: 75vh;
     height: auto;
     max-width: 100%;
+    z-index: 1;
 }
 
 .name {
@@ -109,13 +134,14 @@ main {
 
 .details {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: "image name"
-                         "image phone"
-                         "image email"
-                         "image address"
-                         "image dob";
+    grid-template-areas: "image"
+                         "name"
+                         "phone"
+                         "email"
+                         "address"
+                         "dob"
 }
 
 main div {
@@ -150,18 +176,9 @@ div section a:hover {
 }
 
 footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
     color: white;
     font-family: 'Trispace';
     font-weight: lighter;
-}
-
-.close {
-    display: none;
-}
-
-.navmenu {
-    display: none;
 }
