@@ -102,25 +102,8 @@ main {
     padding: 3vh;
 }
 
-.phone {
-    grid-area: phone;
-    padding: 3vh;
-}
 
-.email {
-    grid-area: email;
-    padding: 3vh;
-}
 
-.address {
-    grid-area: address;
-    padding: 3vh;
-}
-
-.dob {
-    grid-area: dob;
-    padding: 3vh;
-}
 
 
 .details {
@@ -128,10 +111,9 @@ main {
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
     grid-template-areas: "image name"
-                         "image phone"
+                         "image contact"
                          "image email"
-                         "image address"
-                         "image dob";
+
 }
 
 main div {
@@ -140,21 +122,7 @@ main div {
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
-.calender {
-    padding: 1px;
-}
 
-.home {
-    padding: 1px;
-}
-
-.mail {
-    padding: 5px;
-}
-
-.phoneicon {
-    padding: 1px;
-}
 
 div section a {
     margin: 2em;
@@ -180,4 +148,61 @@ footer {
 
 .navmenu {
     display: none;
+}
+
+textarea {
+    width: 80%;
+    height: 20em;
+    margin: 1em;
+    font-size: 1.25em;
+    margin-left: 3em;
+    grid-area: textarea;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.First_name {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.25em;
+    font-family: 'Trispace', sans-serif;
+    grid-area: firstname;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Surname {
+    margin-right: 1em;
+    margin-left: 1em;
+    font-size: 1.25em;
+    font-family: 'Trispace', sans-serif;
+    grid-area: surname;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.submit {
+    grid-area: submit;
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+    border: 3px solid black;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 30px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "firstname surname"
+                         "textarea textarea"
+                         "submit submit";
+}
+
+form ::placeholder {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.socials {
+    text-align: center;
 }

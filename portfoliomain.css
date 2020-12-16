@@ -155,7 +155,6 @@ div section {
     font-family: 'Trispace', sans-serif;
     transform: translate(-100%, 0);
     transition: transform 0.25s ease-in;
-    opacity: 0;
 
 }
 

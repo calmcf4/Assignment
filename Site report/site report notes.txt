@@ -42,3 +42,6 @@ Button view my work would not fit in grid. had to move it
 
 
 Text underline from https://paulund.co.uk/css-animation-link-underline
+
+script element in html added to solve the problem of transitions starting on page load, found out about the bug here 
+https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load

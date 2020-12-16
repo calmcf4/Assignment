@@ -41,13 +41,11 @@ nav {
     transform: translate(-0%, -100%);
     transition: transform 0.25s ease-in;
     background: rgba(0, 0, 0, 0.75);
-    opacity: 0;
     font-size: xx-large;
 }
 
 nav:target {
     transform: translate(0, 0);
-    opacity: 1;
 }
 
 
@@ -154,7 +152,6 @@ div section {
     transform: translate(-100%, 0);
     transition: transform 0.25s ease-in;
     left: -100;
-    opacity: 0;
 
 }
 

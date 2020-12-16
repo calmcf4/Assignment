@@ -41,14 +41,12 @@ nav {
     transform: translate(-0%, -100%);
     transition: transform 0.25s ease-in;
     background: rgba(0, 0, 0, 0.75);
-    opacity: 0;
     font-size: xx-large;
     z-index: 1;
 }
 
 nav:target {
     transform: translate(0, 0);
-    opacity: 1;
 }
 
 
