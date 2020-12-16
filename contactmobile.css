@@ -180,3 +180,63 @@ footer {
     font-family: 'Trispace';
     font-weight: lighter;
 }
+
+
+textarea {
+    width: 80%;
+    height: 20em;
+    margin: 1em;
+    font-size: 1.25em;
+    margin-left: 2em;
+    grid-area: textarea;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.First_name {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.25em;
+    font-family: 'Trispace', sans-serif;
+    grid-area: firstname;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.Surname {
+    margin-right: 1em;
+    margin-left: 1em;
+    font-size: 1.25em;
+    font-family: 'Trispace', sans-serif;
+    grid-area: surname;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.submit {
+    grid-area: submit;
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+    border: 3px solid black;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 30px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "firstname surname"
+                         "textarea textarea"
+                         "submit submit";
+}
+
+form ::placeholder {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.socials {
+    text-align: center;
+}

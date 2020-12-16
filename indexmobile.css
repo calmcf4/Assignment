@@ -96,21 +96,12 @@ a {
 
 h2 {
     width: 50vw;
-    border-right: 3px solid;
-    animation: blink 1s step-end infinite;
-    animation: typing 5s steps(30, end), blink 1s step-end infinite;
+
 
 }
 
 
-@keyframes blink {
-    from, to {
-        border-color: transparent;
-    }
-    20% {
-        border-color: white;
-    }
-}
+
 
 
 p {

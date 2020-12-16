@@ -168,6 +168,7 @@ textarea {
     font-family: 'Trispace', sans-serif;
     grid-area: firstname;
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 .Surname {
@@ -177,6 +178,7 @@ textarea {
     font-family: 'Trispace', sans-serif;
     grid-area: surname;
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 .submit {
