@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@500;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="sitereportmain.css" media="screen and (min-width:900px)" />
+    <link rel="stylesheet" href="sitereportmobile.css" media="screen and (max-width:900px)" />
+</head>
+
+<body>
+
+    <video class="video" loop autoplay muted>
+        <source src="Love-Coding.mp4" type="video/mp4" />
+    </video>
+    <div class="topbar">
+        <h1><a href="index.html">Callum McFarlane</a></h1>
+
+        <nav id="nav">
+            <ul>
+                <li><a href="portfolio.html" class="underline">My Portfolio</a></li>
+                <li><a href="cv.html" class="underline">My cv</a></li>
+                <li><a href="sitereport.html" class="underline">Site Report</a></li>
+                <li><a href="contact.html" class="underline">Contact me</a></li>
+                <li class="close"><a href="#">Close</a></li>
+            </ul>
+        </nav>
+        <a href="#nav" class="navmenu"><img src="navmenu.png" alt="navmenu" /></a>
+    </div>
+
+    <main>
+        <section>
+            <div>
+                <h2>My Module Experience</h2>
+                <p>I came into this module with no prior experience programming in HTML or CSS, however despite this I
+                    believe that I have managed quite well and have found both languages to be easy to pick up,
+                    especially
+                    when compared to the languages used in my other programming modules. Although this does not mean I
+                    did
+                    not encounter any issues with web development. One of the earliest problems that I recall having was
+                    when we were covering responsive websites and making a menu only appear when targeted. However,
+                    after
+                    several hours of re-watching the lecture and reading the slides I was finally able to make it work.
+                    I
+                    think I enjoyed the lectures on animations the most, as it gave me the most opportunity to be more
+                    creative with what I could do with the code. And once we got into the more advanced keyframe
+                    animations
+                    and through some research of my own, I discovered that there is a great deal that can be done using
+                    just
+                    CSS to animate a website.</p>
+            </div>
+            <div>
+                <h2>Website Design</h2>
+                <p>To begin with I started by looking at other websites for inspiration, I found <a
+                        href="https://www.ryangittings.co.uk/">https://www.ryangittings.co.uk/</a>
+                    to be the one that I liked most. This was the site that inspired me
+                    to use the video background for my site, as well as the general layout of my name being in the top
+                    left corner as a home button. I also used an opacity fade style in the early days of my site before
+                    swapping it out for its current style.</p>
+                <p>Next, I began by making a simple wireframe for my index and portfolio pages, this allowed me to have
+                    a basic plan when it came to implementing the site in HTML, as I already knew which elements I would
+                    need to use and where they would need to be nested. I didn’t put too much detail into this wireframe
+                    as I knew that I would make changes to the design as I worked on the site and did not want to spend
+                    hours on a design that would not even be used for the final version. </p>
+                <p>Once I began implementing the design, I ran into a few problems with the site. The first was getting
+                    the video background to work, initially it would not run at all and would just display as a static
+                    image, through some googling of the problem I found that for it to run on a loop it had to be set as
+                    muted. I also had issues with the images used on the portfolio page, as they were all different
+                    sizes; resizing them all to the same dimensions using an online image resizer tool fixed this issue.
+                    Lastly I had issues with all of my CSS transitions starting as soon as the page loaded, I found out
+                    that this was due to a bug in chrome and that adding a script element to the html code would fix
+                    this.</p>
+                <p>For the design of my site, I decided to go with a simple faded black background with white text, as
+                    this would make it easier to read against the video background. I also added a black shadow effect
+                    on the text to make it easier to read. I chose a typewriter style font, as I felt it matched well
+                    with the blinking effect from the index page, my goal was to make the text look as if it had been
+                    typed onto the page with a typewriter.</p>
+            </div>
+            <div>
+                <h2>References</h2>
+                <p>Typewriter effect found here and edited: <a
+                        href="https://usefulangle.com/post/85/css-typewriter-animation">https://usefulangle.com/post/85/css-typewriter-animation</a>
+                </p>
+                <p>Image resizing tool: <a href="https://resizeimage.net/">https://resizeimage.net/</a></p>
+                <p>Icons from: <a href="https://www.iconsdb.com/">https://www.iconsdb.com/</a></p>
+                <p>Text underline on hover from: <a
+                        href="https://paulund.co.uk/css-animation-link-underline">https://paulund.co.uk/css-animation-link-underline</a>
+                </p>
+                <p>Script element bug fix:
+                    <a
+                        href="https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load">https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load</a>
+                </p>
+            </div>
+            <h3>Images</h3>
+            <div class="images">
+                <div class="IndexWireframe">
+                    <h4>Index Wireframe</h4>
+                    <img src="SiteReport\index wireframe.png" alt="Index Wireframe" width=350 length=200 />
+                </div>
+                <div class="PortfolioWireframe">
+                    <h4>Portfolio Wireframe</h4>
+                    <img src="SiteReport\Portfolio wireframe.png" alt="Portfolio Wireframe" width=350 length=200 />
+                </div>
+                <div class="IndexHTML">
+                    <h4>Index HTML Validation</h4>
+                    <img src="SiteReport\Code Validation\Index\Index.html.png" alt="Index HTML Validation" width=350
+                        length=200 />
+                </div>
+                <div class="IndexMain">
+                    <h4>Index Main CSS Validation</h4>
+                    <img src="SiteReport\Code Validation\Index\indexmain.css.png" alt="Index CSS Main Validation"
+                        width=350 length=200 />
+                </div>
+                <div class="IndexMobile">
+                    <h4>Index Mobile CSS Validation</h4>
+                    <img src="SiteReport\Code Validation\Index\indexmobile.css.png" alt="Index CSS Mobile Validation"
+                        width=350 length=200 />
+                </div>
+                <div class="ContactHTML">
+                    <h4>Contact HTML Validation</h4>
+                    <img src="SiteReport\Code Validation\Contact\Contact.html.png" alt="Contact HTML Validation"
+                        width=350 length=200 />
+                </div>
+                <div class="ContactMain">
+                    <h4>Contact Main CSS Validation</h4>
+                    <img src="SiteReport\Code Validation\Contact\Contactmain.css.png" alt="Contact Main CSS Validation"
+                        width=350 length=200 />
+                </div>
+                <div class="ContactMobile">
+                    <h4>Contact Mobile CSS Validation</h4>
+                    <img src="SiteReport\Code Validation\Contact\Contactmobile.css.png"
+                        alt="Contact Mobile CSS Validation" width=350 length=200 />
+                </div>
+                <div class="CVHTML">
+                    <h4>CV HTML Validation</h4>
+                    <img src="SiteReport\Code Validation\CV\CV.html.png" alt="CV HTML Validation" width=350
+                        length=200 />
+                </div>
+                <div class="CVMain">
+                    <h4>CV Main CSS Validation</h4>
+                    <img src="SiteReport\Code Validation\CV\CVMain.css.png" alt="CV CSS Main Validation" width=350
+                        length=200 />
+                </div>
+                <div class="CVMobile">
+                    <h4>CV Mobile CSS Validation</h4>
+                    <img src="SiteReport\Code Validation\CV\CVMobile.css.png" alt="CV CSS Mobile Validation" width=350
+                        length=200 />
+                </div>
+                <div class="PortfolioHTML">
+                    <h4>Portfolio HTML Validation</h4>
+                    <img src="SiteReport\Code Validation\Portfolio\Portfolio.html.png" alt="Portfolio HTML Report"
+                        width=350 length=200 />
+                </div>
+                <div class="PortfolioMain">
+                    <h4>Portfolio Main CSS Validation</h4>
+                    <img src="SiteReport\Code Validation\Portfolio\Portfoliomain.css.png"
+                        alt="Portfolio CSS Main Validation" width=350 length=200 />
+                </div>
+                <div class="PortfolioMobile">
+                    <h4>Portfolio Mobile CSS Validation</h4>
+                    <img src="SiteReport\Code Validation\Portfolio\Portfoliomobile.css.png"
+                        alt="Portfolio CSS Mobile Validation" width=350 length=250 />
+                </div>
+            </div>
+            </div>
+    </main>
+
+    <footer>
+        <script> <script /></script>&copy;Callum McFarlane 2020
+    </footer>
+</body>
+
+</html>

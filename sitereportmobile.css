@@ -1,0 +1,200 @@
+.video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(4px);
+    z-index: -5;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    grid-area: h1;
+    color: white;
+    font-family: 'Trispace', sans-serif;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+h1 a:hover{
+    opacity: 0.75;
+    color: red;
+    transition: opacity 0.25s ease-out;
+}
+
+nav {
+    grid-area: nav;
+}
+
+nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-0%, -100%);
+    transition: transform 0.25s ease-in;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: xx-large;
+    z-index: 1;
+}
+
+nav:target {
+    transform: translate(0, 0);
+}
+
+
+nav ul li {
+    opacity: 1;
+    list-style-type: none;
+    margin: 2.5em;
+    text-align: center;
+}
+
+nav > ul > li a:hover {
+    opacity: 0.75;
+    color: red;
+    transition: opacity 0.25s ease-out;
+}
+
+
+
+a {
+    color:  white;
+    text-decoration: none;
+    font-family: 'Trispace', sans-serif;
+}
+
+.topbar {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: auto;
+    grid-template-areas: "h1 nav";  
+    top: 0;
+    width: 100vw;
+    z-index: -3;
+}
+
+main {
+    display: block;
+    height: 77%;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -2;
+    bottom: 10vh;
+    left: 20vh;
+    font-size: 2.5vh;
+    font-size: 1.75vw;
+    color: white;
+    font-family: 'Trispace', sans-serif;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+main div {
+    color: white;
+    font-family: 'Trispace', sans-serif;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+
+footer {
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-family: 'Trispace';
+    font-weight: lighter;
+}
+
+main a:hover {
+    opacity: 0.75;
+    color: red;
+    transition: opacity 0.25s ease-out;
+}
+
+.IndexWireframe {
+    grid-area: IndexWireframe
+}
+
+.PortfolioWireframe {
+    grid-area: PortfolioWireframe
+}
+
+.IndexHTML {
+    grid-area: IndexHTML
+}
+
+.IndexMain {
+    grid-area: IndexMain
+}
+
+.IndexMobile {
+    grid-area: IndexMobile
+}
+
+.ContactHTML {
+    grid-area: ContactHTML
+}
+
+.ContactMain {
+    grid-area: ContactMain
+}
+
+.ContactMobile {
+    grid-area: ContactMobile
+}
+
+.CVHTML {
+    grid-area: CVHTML
+}
+
+.CVMain {
+    grid-area: CVMain
+}
+
+.CVMobile {
+    grid-area: CVMobile
+}
+
+.PortfolioHTML {
+    grid-area: PortfolioHTML
+}
+
+.PortfolioMain {
+    grid-area: PortfolioMain
+}
+
+.PortfolioMobile {
+    grid-area: PortfolioMobile
+}
+
+.images {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "IndexWireframe PortfolioWireframe"
+                         "IndexHTML IndexMain"
+                         "IndexMobile ContactHTML"
+                         "ContactMain ContactMobile"
+                         "CVHTML CVMain"
+                         "CVMobile PortfolioHTML"
+                         "PortfolioMain PortfolioMobile";
+                            
+}
